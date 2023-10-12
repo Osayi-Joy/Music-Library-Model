@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class MusicLibrary {
-    private List<MusicTrack> tracks;
-    private List<Album> albums;
+    private final List<MusicTrack> tracks;
+    private final List<Album> albums;
 
 
     public MusicLibrary() {

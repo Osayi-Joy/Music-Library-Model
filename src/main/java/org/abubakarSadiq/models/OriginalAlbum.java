@@ -1,8 +1,8 @@
 package org.abubakarSadiq.models;
 
 public class OriginalAlbum {
-    private String name;
-    private Artist artist;
+    private final String name;
+    private final Artist artist;
 
     public OriginalAlbum(String name, Artist artist) {
         this.name = name;

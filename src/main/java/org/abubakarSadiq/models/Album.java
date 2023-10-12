@@ -7,7 +7,7 @@ public class Album {
     private String name;
     private String type;
     private Artist artist;
-    private List<MusicTrack> tracks;
+    private final List<MusicTrack> tracks;
 
     public Album(String name, String type, Artist artist) {
         this.name = name;

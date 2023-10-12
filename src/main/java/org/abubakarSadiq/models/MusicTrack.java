@@ -5,15 +5,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MusicTrack {
-        private String title;
-        private Artist artist;
-        private LocalDate date;
-        private double length;
-        private int rating;
-        private String location;
-        private double size;
-        private Artist guestArtist;
-        private int playCount;
+    private String title;
+    private Artist artist;
+    private LocalDate date;
+    private double length;
+    private int rating;
+    private String location;
+    private double size;
+    private Artist guestArtist;
+    private int playCount;
 
     public MusicTrack(String title, Artist artist, LocalDate date,
                       double length, int rating, String location,
@@ -27,6 +27,24 @@ public class MusicTrack {
         this.size = size;
         this.guestArtist = guestArtist;
         this.playCount = playCount;
+    }
+
+    public static List<Artist> getAllIndividualsOnTrack(MusicTrack track) {
+        List<Artist> individuals = new ArrayList<>();
+
+        // Add the main artist
+        individuals.add(track.getArtist());
+
+        // Add guest artist (if any)
+        if (track.getGuestArtist() != null) {
+            individuals.add(track.getGuestArtist());
+        }
+
+        // Add band members (if any)
+        List<Artist> bandMembers = track.getArtist().getMembers();
+        individuals.addAll(bandMembers);
+
+        return individuals;
     }
 
     public String getTitle() {
@@ -97,32 +115,13 @@ public class MusicTrack {
         return playCount;
     }
 
-    public void incrementPlayCount() {
-        playCount++;
-    }
-
     public void setPlayCount(int playCount) {
         this.playCount = playCount;
     }
 
-    public static List<Artist> getAllIndividualsOnTrack(MusicTrack track) {
-        List<Artist> individuals = new ArrayList<>();
-
-        // Add the main artist
-        individuals.add(track.getArtist());
-
-        // Add guest artist (if any)
-        if (track.getGuestArtist() != null) {
-            individuals.add(track.getGuestArtist());
-        }
-
-        // Add band members (if any)
-        List<Artist> bandMembers = track.getArtist().getMembers();
-        individuals.addAll(bandMembers);
-
-        return individuals;
+    public void incrementPlayCount() {
+        playCount++;
     }
-
 
     @Override
     public String toString() {

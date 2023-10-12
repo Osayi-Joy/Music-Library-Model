@@ -4,29 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d2867bb-80e3-42e0-b1b1-e751a59aebed" name="Changes" comment="">
+    <list default="true" id="7d2867bb-80e3-42e0-b1b1-e751a59aebed" name="Changes" comment="Music Library">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/models/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/models/Artist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/models/CompilationAlbum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/models/MusicLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/models/MusicTrack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/models/OriginalAlbum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/abubakarSadiq/models/AlbumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/abubakarSadiq/models/ArtistTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/abubakarSadiq/models/CompilationAlbumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/abubakarSadiq/models/MusicLibraryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/abubakarSadiq/models/MusicTrackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/abubakarSadiq/models/OriginalAlbumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/models/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/models/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/models/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/models/Artist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/models/CompilationAlbum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/models/CompilationAlbum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/models/MusicLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/models/MusicLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/models/MusicTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/models/MusicTrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/models/OriginalAlbum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abubakarSadiq/models/OriginalAlbum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +71,34 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.MusicLibraryTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.abubakarSadiq.Main" />
+      <module name="musicLibrary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.abubakarSadiq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlbumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="musicLibrary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.abubakarSadiq.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.abubakarSadiq.models" />
+      <option name="MAIN_CLASS_NAME" value="org.abubakarSadiq.models.AlbumTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MusicLibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="musicLibrary" />
       <extension name="coverage">
@@ -114,22 +130,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MusicLibraryTest.testAddTracks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="musicLibrary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.abubakarSadiq.models.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.abubakarSadiq.models" />
-      <option name="MAIN_CLASS_NAME" value="org.abubakarSadiq.models.MusicLibraryTest" />
-      <option name="METHOD_NAME" value="testAddTracks" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MusicLibraryTest.testGetAlbums" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="musicLibrary" />
       <extension name="coverage">
@@ -146,28 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OriginalAlbumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="musicLibrary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.abubakarSadiq.models.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.abubakarSadiq.models" />
-      <option name="MAIN_CLASS_NAME" value="org.abubakarSadiq.models.OriginalAlbumTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MusicLibraryTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.AlbumTest" />
         <item itemvalue="JUnit.MusicLibraryTest.testAddAlbums" />
         <item itemvalue="JUnit.MusicLibraryTest.testGetAlbums" />
-        <item itemvalue="JUnit.MusicLibraryTest.testAddTracks" />
-        <item itemvalue="JUnit.OriginalAlbumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +165,14 @@
       <option name="presentableId" value="Default" />
       <updated>1696720573860</updated>
     </task>
+    <task id="LOCAL-00001" summary="Music Library">
+      <created>1696983176921</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696983176921</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +185,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Music Library" />
+    <option name="LAST_COMMIT_MESSAGE" value="Music Library" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/musicLibrary$CompilationAlbumTest.ic" NAME="CompilationAlbumTest Coverage Results" MODIFIED="1696981913821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

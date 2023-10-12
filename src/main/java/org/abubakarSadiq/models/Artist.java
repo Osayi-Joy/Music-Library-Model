@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Artist {
-    private String name;
-    private List<Artist> members;
+    private final String name;
+    private final List<Artist> members;
 
     public Artist(String name) {
         this.name = name;

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CompilationAlbum extends Album {
-    private List<OriginalAlbum> originalAlbums;
+    private final List<OriginalAlbum> originalAlbums;
 
     public CompilationAlbum(String name, String type, Artist artist) {
         super(name, type, artist);
