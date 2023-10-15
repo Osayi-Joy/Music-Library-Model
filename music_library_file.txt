@@ -1,0 +1,59 @@
+TESTING THE PROBLEM BASIC I SOLUTIONS
+--------------------------------------
+Track Information:
+Title: Track 1
+Artist: Artist 1
+Date: 2023-10-09
+Length: 4.5
+Rating: 4
+Location: location1
+Size: 10.0
+Guest Artist: Artist 2
+Play Count: 5
+
+Updated Play Count: 6
+
+Individuals on the Track:
+Artist 1
+Artist 2
+
+TESTING THE PROBLEM BASIC II SOLUTIONS
+-----------------------------------------
+Album Information:
+Name: Album Title
+Type: Type
+Artist: Artist Name
+Tracks in the Album:
+Track 1 by Artist Name (2023-10-09)
+Track 2 by Artist Name (2023-10-09) with Guest Artist Name
+Overall Running Time: 8.0 minutes
+Overall File Size: 18.0 MB
+Average Rating of Tracks: 3.5
+
+TESTING THE PROBLEM BASIC III SOLUTIONS
+-----------------------------------------
+
+Tracks in the Library:
+Track 1 by Artist 1 (2023-10-09) with Guest Artist Name
+Track 2 by Artist 1 (2023-10-09) with Guest Artist Name
+Track 3 by Artist 2 (2023-10-09) with Guest Artist Name
+
+Albums in the Library:
+Album 1 by Artist 1
+
+Tracks with the Lowest Rating:
+Track 3 by Artist 2 (2023-10-09) with Guest Artist Name
+
+TESTING THE PROBLEM EXTENSIONS I SOLUTIONS
+--------------------------------------------
+Greatest Hits Vol I by Various Artists (Compilation)
+Track: Bohemian Rhapsody (Original Album: A Night at the Opera by Queen)
+Track: Fall (Original Album: Another Album by Queen)
+
+TESTING THE PROBLEM EXTENSIONS II SOLUTIONS
+--------------------------------------------
+Backup Disc 1:
+Track 1 by Artist 1 (2023-10-09) with Guest Artist Name
+Backup Disc 2:
+Track 2 by Artist 1 (2023-10-09) with Guest Artist Name
+Track 3 by Artist 2 (2023-10-09) with Guest Artist Name

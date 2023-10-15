@@ -5,33 +5,65 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * Represents a music library that stores music tracks and albums.
+ *
+ * @author Abubakar Sadiq
+ * @version 1.0
+ */
 public class MusicLibrary {
     private final List<MusicTrack> tracks;
     private final List<Album> albums;
 
-
+    /**
+     * Constructs a new MusicLibrary with empty lists for tracks and albums.
+     */
     public MusicLibrary() {
         this.tracks = new ArrayList<>();
         this.albums = new ArrayList<>();
     }
 
+    /**
+     * Get the list of music tracks in the library.
+     *
+     * @return The list of music tracks.
+     */
     public List<MusicTrack> getTracks() {
         return tracks;
     }
 
+    /**
+     * Get the list of albums in the library.
+     *
+     * @return The list of albums.
+     */
     public List<Album> getAlbums() {
         return albums;
     }
 
+    /**
+     * Add a music track to the library.
+     *
+     * @param track The music track to be added.
+     */
     public void addTrack(MusicTrack track) {
         tracks.add(track);
     }
 
+    /**
+     * Add an album to the library.
+     *
+     * @param album The album to be added.
+     */
     public void addAlbum(Album album) {
         albums.add(album);
     }
 
-
+    /**
+     * Get a list of music tracks with the lowest rating in the library.
+     *
+     * @return A list of music tracks with the lowest rating.
+     */
     public List<MusicTrack> getTracksWithLowestRating() {
         if (tracks.isEmpty()) {
             return new ArrayList<>();
@@ -47,7 +79,12 @@ public class MusicLibrary {
                 .collect(Collectors.toList());
     }
 
-
+    /**
+     * Backup music tracks to discs based on disc capacity.
+     *
+     * @param discCapacity The maximum capacity of a disc in terms of file size.
+     * @return A list of discs where each disc is a list of music tracks.
+     */
     public List<List<MusicTrack>> backupMusicTracks(double discCapacity) {
         // Sort the tracks by size in decreasing order
         List<MusicTrack> sortedTracks = new ArrayList<>(tracks);
@@ -77,7 +114,11 @@ public class MusicLibrary {
         return backupDiscs;
     }
 
-
+    /**
+     * Get a string representation of the music library.
+     *
+     * @return A string representing the music library.
+     */
     @Override
     public String toString() {
         return "Music Library";
